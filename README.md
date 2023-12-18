@@ -8,3 +8,8 @@ A web application for uploading and sharing recipes.
 - Sort recipes into "shelves" by tags.
 - Start and join communities to share recipes.
 - Browse and save publicly-visible recipes from other users.
+
+## Tools and Technologies
+- [Frontend](https://github.com/emoore36/recipepantry_frontend): JavaScript via React via Next.js
+- [Backend](https://github.com/emoore36/recipepantry_backend): Java via Spring Boot and Maven dependency service.
+- Database: PostgreSQL via Docker image and container.
