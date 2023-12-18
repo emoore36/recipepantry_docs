@@ -13,3 +13,39 @@ A web application for uploading and sharing recipes.
 - [Frontend](https://github.com/emoore36/recipepantry_frontend): JavaScript via React via Next.js
 - [Backend](https://github.com/emoore36/recipepantry_backend): Java via Spring Boot and Maven dependency service.
 - Database: PostgreSQL via Docker image and container.
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following software installed on your system:
+
+- Node.js and npm for the frontend
+- Java, Spring Boot, and Maven for the backend
+- PostgreSQL database
+
+### Installation
+
+1. Clone the Frontend Repository. 
+    `git clone https://github.com/emoore36/recipepantry_frontend.git`
+2. Install Frontend Dependencies. 
+    ```
+    cd recipepantry_frontend
+    npm install
+    ```
+3. Clone the Backend Repository. 
+    `git clone https://github.com/emoore36/recipepantry_backend.git`
+4. Install Backend Dependencies and Run the Server.
+    ```
+    cd recipepantry_backend
+    ./mvnw spring-boot:run
+    ```
+5. Set Up and Run the PostgreSQL Database using Docker. 
+    `docker run -d -p 5432:5432 --name recipe_pantry_db -e POSTGRES_PASSWORD=mysecretpassword postgres`
+6. Update Database Configurations.
+   - Modify the database configurations in the backend application.properties file.
+7. Start the frontend server. 
+    `npm run dev`
+8. Visit http://localhost:3000 in your browser.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own purposes.
