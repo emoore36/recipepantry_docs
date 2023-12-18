@@ -1,2 +1,2 @@
-# recipepantry_docs
-Documentation for planning and maintaining the Recipe Pantry application.
+# Recipe Pantry
+A web application for uploading and sharing recipes.
