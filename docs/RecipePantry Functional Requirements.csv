@@ -1,0 +1,27 @@
+As a...,I want...,so that...
+user,to create an account,I can contribute to the site
+user,to log into my account,I can access the site features
+user,update my profile,I can portray myself to other users
+user,create a recipe,I can have recipes in my pantry
+user,edit a recipe,I can fix or improve the recipe
+user,toggle the visibility of a recipe,I can change who can see my recipe
+user,delete a recipe,I do not see that recipe anymore
+user,create a shelf,I can organize my recipes
+user,delete a shelf,I do not have unecessary shelves
+user,add a recipe to a shelf,I can organize this recipe
+user,remove a recipe from the shelf,my shelf remains tiny
+user,filter my pantry by shelf tag,I can find the recipes I seek faster
+user,filter my pantry by recipe text,I can find the recipe I seek faster
+user,browse public recipes,I can see recipes others have made
+user,view the details of a recipe,I can read the entire recipe
+user,save recipes to my pantry,I can reach the recipe later
+user,create a community,I can lead a group of people with common  interests
+user,browse public communities,I can find people with similar interests
+user,view the page of a public community,I can see what interests the community members share
+user,join a public community,I can be involved in the experiences of the community
+user,request to join a private community,I can signal my interest in the community to the community moderator(s)
+community member,leave a commmunity,I can stop being involved in the experience of the community
+community member,view the pantry of my community,I can see what recipes have been shared by members of my community
+community member,to see a list of communities I am in,I can see my communities at a glance
+community moderator,to promote a member of my community,I can share community moderation responsibilities with the member
+community admin,delete the community I moderate,the community can be quickly and cleanly disbanded
