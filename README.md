@@ -20,7 +20,7 @@ A web application for uploading and sharing recipes.
 Ensure you have the following software installed on your system:
 
 - [Node 20.10.0 and npm 10.2.3](https://nodejs.org/en/download/current) for the frontend
-- [Java 17.0.2](https://www.oracle.com/java/technologies/downloads/#java17), [Spring Boot 3.2.0](https://spring.io/blog/2023/11/23/spring-boot-3-2-0-available-now), and [Maven 3.8.6](https://maven.apache.org/download.cgi) for the backend
+- [Java 17.0.2](https://www.oracle.com/java/technologies/downloads/#java17), Spring Boot 3.2.1, and [Maven 3.8.6](https://maven.apache.org/download.cgi) for the backend
 - [Docker CLI](https://docs.docker.com/get-docker/)
 
 ### Installation
